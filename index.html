@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>survey form</title>
+    <link rel="stylesheet" href="survey.css">
+</head>
+<body style="background-image: url(imag.jpeg.jpeg);">
+   <center><header id="title"><h1>SURVEY FORM</h1></header></center>
+    
+    <center>
+    <div class="container">
+        <form >
+           <center>
+            <p>Let us know how we can improve</p>
+            <table>
+            <tr>
+            <td>
+            <label for="name">* Name:</label></td>
+            <td>
+            <input type="text"  name="name" placeholder="enter your name" required><br><br></td>
+            </tr>
+            <tr>
+            <td>
+            <label for="email">* Email:</label></td>
+            <td>
+            <input type="email" id="email" name="email" placeholder="enter your email" required><br><br></td>
+                
+                </tr>
+                <tr>
+                    <td>
+            <label for="age">* Age:</label></td>
+            <td>
+            <input type="number" id="age" name="age" placeholder="age"><br><br></td>
+                <td>
+                </tr>
+                <!-- </table>
+                <table> -->
+                     <tr>   <td>  
+            <label for="file"></label></td>
+            <td>
+            <input type="file" id="file" name="file"><br><br></td>
+            </tr>
+            
+            <!-- </table>
+            <table> -->
+                <tr><td>
+            <label for="role">Which option best describes your current role?</label></td>
+            <td>
+            <select id="role" name="role">
+                <option value="student">Student</option>
+                <option value="professional">Professional</option>
+                <option value="other">Other</option>
+            </select><br><br></td>
+            </tr>
+            <!-- </table>
+            <table> -->
+                <tr><td>
+            <label>* How likely is that you would recommend this program to a friend?</label></td>
+           <td> <input type="radio" id="definitely" name="recommend" value="definitely">
+            <label for="definitely">Definitely</label><br>
+              <input type="radio" id="maybe" name="recommend" value="maybe">
+             <label for="maybe">Maybe</label><br>
+             <input type="radio" id="notsure" name="recommend" value="notsure">
+                          <label for="notsure">Not sure</label><br><br></td></tr>
+            <!-- </table>
+            <table> -->
+                <tr>
+                <td>
+            <label for="like">What do you like most here:</label></td>
+            <td>
+            <select id="like" name="like">
+                <option value="option">select an option</option>
+                <option value="teachers">Teachers</option>
+                <option value="curriculum">Curriculum</option>
+                <option value="projects">Projects</option>
+            </select><br><br></td>
+        <!-- </table> -->
+                <!-- <table> -->
+                    <tr><td>
+
+            <label>Things that should be improved in the future (Check all that apply):</label><br></td>
+            <td>
+            <input type="checkbox" id="frontend" name="improve" value="frontend">
+            <label for="frontend">Front-end Projects</label><br>
+            <input type="checkbox" id="backend" name="improve" value="backend">
+            <label for="backend">Back-end Projects</label><br>
+            <input type="checkbox" id="dataviz" name="improve" value="dataviz">
+            <label for="dataviz">Data Visualization</label><br><br></td>
+            </tr>
+            <!-- </table> -->
+            <!-- <table> -->
+                <tr><td>
+            <label for="comments">Any Comments or Suggestions?</label></td>
+            <td>
+            <textarea id="comments" name="comments" rows="4" cols="50" placeholder="enter your comments...."></textarea><br></td></tr></table>
+
+            <input type="submit" value="Submit">
+           </center>
+        </form>
+    </div>
+    </center>
+</body>
+</html>
